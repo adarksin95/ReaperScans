@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+      "target": "ES6",              // Use ES6 for the output JavaScript
+      "module": "commonjs",         // Use CommonJS module system
+      "rootDir": "./src",           // Specify the source folder
+      "outDir": "./dist",           // Specify the output folder
+      "strict": true                // Enable strict type checking
+  },
+  "include": ["src/**/*"]           // Include all files in the src folder
+}
